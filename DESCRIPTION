@@ -1,0 +1,12 @@
+Package: TLS
+Type: Package
+Title: Provides Tools For Terrestrial LiDAR Data Analysis
+Version: 0.1.0
+Author: Emmanuel Duchateau <yluvatar@hotmail.fr>
+Maintainer: Emmanuel Duchateau <yluvatar@hotmail.fr>
+Description: TLS provides a set of tools to extract variables from terrestrial LiDAR point cloud. Les fonctions principales permettent de construire une cartographie de la position de tous les arbres. Puis, à partir ce TreeMap, l'isolation de chaque houppier individuel et de leur caractéristiques est aussi disponible.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.0.1
+Depends: data.table, dplyr, lidR, ggplot2, dbscan, rlas, conicfit, RANN, rgl
